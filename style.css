@@ -1,0 +1,54 @@
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+ img {
+    height: 200px;
+    width: 200px;
+    margin:10px
+}
+.sport {
+    float: left;
+    margin: 10px;
+}
+.game {
+  width: 45%;
+  text-align: justify;
+}
+p {
+  color: chocolate;
+}
+.cricket {
+    float:left;
+}
+.basketball {
+    float:right;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+}
+
+@media (max-width:618px) {
+  h1 {
+    font-size: 3.5rem;
+    font-family:cursive;
+  }
+  .game {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: justify;
+  }  
+  .sport {
+    display: block;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  h2{
+    font-family: cursive;
+  }
+}
